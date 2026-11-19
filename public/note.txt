@@ -1,0 +1,120 @@
+
+/**
+ * @file: note.txt
+ * @author: Kashish Golhani
+ * @summary: Computer Science Engineering Student | Aspiring Software Developer
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Tailwind CSS"
+  ],
+  programming: [
+    "Java",
+    "Data Structures & Algorithms"
+  ],
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code"
+  ],
+  interests: [
+    "Web Development",
+    "Cybersecurity"
+  ]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE & CURRENT FOCUS
+// --------------------------------------------------
+
+const professionalHistory = {
+  currentStatus: "B.Tech Computer Science Student",
+  period: "2023 - 2027",
+  focus: [
+    "Software Development",
+    "Problem Solving",
+    "Frontend Development"
+  ]
+};
+
+// --------------------------------------------------
+// 3. PROJECTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  description: string;
+  technologies: string[];
+}
+
+const projects: Project[] = [
+  {
+    name: "Flick the Show",
+    description:
+      "A team-based movie ticket booking platform featuring movie browsing, trailers, seat selection, booking and a personalized dashboard.",
+    technologies: ["React.js", "JavaScript", "CSS"]
+  },
+  {
+    name: "macOS Portfolio",
+    description:
+      "A personal portfolio inspired by the macOS desktop interface.",
+    technologies: ["React.js", "JavaScript", "SCSS"]
+  },
+  {
+    name: "SkillSwap",
+    description:
+      "A web development project focused on skill sharing and learning.",
+    technologies: ["Web Development"]
+  }
+];
+
+// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = {
+  college: "Lakshmi Narain College of Technology Excellence",
+  degree: "B.Tech - Computer Science Engineering",
+  duration: "2023 - 2027",
+  location: "Bhopal, Madhya Pradesh",
+  cgpa: "8.23"
+};
+
+// --------------------------------------------------
+// 5. CONTACT INFORMATION
+// --------------------------------------------------
+
+const contact = {
+  email: "kashishglhani@gmail.com",
+  github: "https://github.com/Kashish1704",
+  linkedin:
+    "https://www.linkedin.com/in/kashish-golhani-251732350"
+};
+
+// --------------------------------------------------
+// 6. PROFILE STATUS
+// --------------------------------------------------
+
+const profileStatus = {
+  status: "Open to Opportunities",
+  location: "India",
+  role: "Aspiring Software Developer"
+};
+
+export {
+  TECH_STACK,
+  professionalHistory,
+  projects,
+  education,
+  contact,
+  profileStatus
+};

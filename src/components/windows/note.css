@@ -1,0 +1,27 @@
+.note-window {
+  padding: 1.25rem;
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 10rem;
+  background-color: #111;
+  color: #e5e5e5;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.note-window pre {
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 0.5rem !important;
+  white-space: pre-wrap !important;
+  word-break: break-word;
+}
+.note-window code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+}
+
+@media (max-width: 600px) {
+  .note-window {
+    padding: 0.85rem;
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=note.css.map */

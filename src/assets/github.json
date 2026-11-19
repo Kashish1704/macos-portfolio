@@ -1,0 +1,30 @@
+
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&q=80&w=1000",
+    "title": "Flick the Show",
+    "description": "A movie ticket booking platform that allows users to explore movies, watch trailers, select seats, book tickets, and view their recent bookings through a personalized dashboard. Developed as a team project.",
+    "tags": ["React", "JavaScript", "HTML", "CSS", "Movie Booking", "Team Project"],
+    "repoLink": null,
+    "demoLink": null
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000",
+    "title": "macOS Portfolio",
+    "description": "A personal portfolio inspired by the macOS desktop experience, featuring interactive windows and a terminal-style interface to explore my skills, projects, and background.",
+    "tags": ["React", "JavaScript", "SCSS", "Frontend Development"],
+    "repoLink": "https://github.com/Kashish1704",
+    "demoLink": null
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=1000",
+    "title": "SkillSwap",
+    "description": "A platform project focused on skill sharing and learning. More project details will be added as the implementation is finalized.",
+    "tags": ["Web Development", "Frontend"],
+    "repoLink": null,
+    "demoLink": null
+  }
+]
